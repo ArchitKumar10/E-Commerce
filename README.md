@@ -43,6 +43,7 @@ Secure Backend Routing
 Admin routes are separated and protected for future JWT-based auth.
 
 🗃️ Project Structure
+```text
 onecart/
 ├── frontend/                # Customer-facing React app
 │   ├── public/              # Static files (index.html, favicon, etc.)
