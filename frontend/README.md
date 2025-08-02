@@ -107,11 +107,7 @@ onecart/
 
 └── README.md # Root project documentation
 
-yaml
-Copy
-Edit
 
----
 
 ## ⚙️ Setup Instructions
 
