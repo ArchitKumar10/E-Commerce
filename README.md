@@ -107,9 +107,6 @@ onecart/
 │   └── package.json
 
 └── README.md              # Root project documentation
-yaml
-Copy
-Edit
 
 
 ## ⚙️ Setup Instructions
@@ -129,32 +126,23 @@ cd backend
 npm install
 Create a .env file with:
 
-env
-Copy
-Edit
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 Then start the server:
 
-bash
-Copy
-Edit
+
 npm start
 API runs on: http://localhost:5000
 
 💻 Frontend Setup
-bash
-Copy
-Edit
+
 cd frontend
 npm install
 npm run dev
 Runs at: http://localhost:5173
 
 🧑‍💼 Admin Panel Setup
-bash
-Copy
-Edit
+
 cd admin
 npm install
 npm run dev
