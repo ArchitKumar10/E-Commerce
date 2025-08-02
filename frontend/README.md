@@ -66,46 +66,33 @@ Admin routes are separated and protected for future JWT-based auth.
 
 ## 🗃️ Project Structure
 
-onecart/
-├── frontend/ # Customer-facing React app
-│ ├── public/ # Static files (index.html, favicon, etc.)
-│ ├── src/
-│ │ ├── assets/ # Images, logos, media
-│ │ ├── component/ # UI components (Nav, Footer, Cards)
-│ │ ├── context/ # AuthContext, CartContext
-│ │ ├── pages/ # Home, Collections, Cart, Product, etc.
-│ │ ├── utils/ # Firebase config, helpers
-│ │ ├── App.jsx # Root component
-│ │ └── main.jsx # App entry point
-│ ├── .gitignore
-│ ├── package.json
-│ ├── vite.config.js
-│ └── index.html
-
-├── admin/ # Admin Panel
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # ProductForm, DashboardLayout, Sidebar
-│ │ ├── pages/ # ManageProducts, AddProduct, etc.
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── .gitignore
-│ ├── package.json
-│ ├── vite.config.js
-│ └── index.html
-
-├── backend/ # Backend Server (Express)
-│ ├── config/ # DB config
-│ ├── controller/ # Logic for product routes
-│ ├── middleware/ # Future auth middleware
-│ ├── model/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ ├── public/ # Public assets (optional)
-│ ├── index.js # Server entry point
-│ ├── .gitignore
-│ └── package.json
-
-└── README.md # Root project documentation
+tutedude/
+├── client/                 # React frontend
+│   ├── public/             # Static files
+│   ├── src/                # Source code
+│   │   ├── components/     # React components
+│   │   │   ├── layout/     # Layout components (Header, Footer)
+│   │   │   ├── routing/    # Routing components
+│   │   │   └── video/      # Video-related components
+│   │   ├── contexts/       # React contexts
+│   │   ├── hooks/          # Custom hooks
+│   │   ├── pages/          # Page components
+│   │   ├── services/       # API services
+│   │   ├── styles/         # Global styles
+│   │   ├── utils/          # Utility functions
+│   │   └── App.js          # Main App component
+│   └── package.json        # Frontend dependencies
+├── server/                 # Node.js backend
+│   ├── config/             # Configuration files
+│   ├── controllers/        # Request handlers
+│   ├── db/                 # Database setup and migrations
+│   ├── middleware/         # Express middleware
+│   ├── models/             # Data models
+│   ├── routes/             # API routes
+│   ├── services/           # Business logic
+│   ├── utils/              # Utility functions
+│   └── server.js           # Main server file
+└── README.md               # Project documentation
 
 
 
